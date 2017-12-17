@@ -1,0 +1,62 @@
+{
+  "name": "react-rebind",
+  "version": "0.1.0",
+  "description": "Declarative data binding to React components",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "prepare": "NODE_ENV=production npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelpivato/react-rebind.git"
+  },
+  "keywords": [
+    "state",
+    "data",
+    "react",
+    "bind",
+    "rebind"
+  ],
+  "author": "Rafael Pivato <rpivato@gmail.com> (https://rafaelpivato.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelpivato/react-rebind/issues"
+  },
+  "homepage": "https://github.com/rafaelpivato/react-rebind#readme",
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.1.2",
+    "babel-preset-react-app": "^3.1.0",
+    "babel-runtime": "6.26.0",
+    "case-sensitive-paths-webpack-plugin": "2.1.1",
+    "eslint": "4.10.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.4.0",
+    "fs-extra": "3.0.1",
+    "html-webpack-plugin": "2.29.0",
+    "object-assign": "4.1.1",
+    "promise": "8.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "3.8.1",
+    "webpack-dev-server": "2.9.4",
+    "webpack-manifest-plugin": "1.3.2",
+    "whatwg-fetch": "2.0.3"
+  }
+}
