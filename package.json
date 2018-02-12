@@ -1,6 +1,6 @@
 {
   "name": "react-rebind",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Declarative data binding to React components",
   "main": "build/index.js",
   "watch": {
